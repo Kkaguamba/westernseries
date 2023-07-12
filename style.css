@@ -1,0 +1,162 @@
+body{
+margin: 0;
+padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+p{
+    color: red;
+    text-decoration: underline;
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+}
+ li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: #04aa6d;
+}
+.content-info{
+    background:#f9f9f9;
+    padding:40px 0;
+    background-size: cover!important;
+    background-position: top center!important;
+    position: relative;
+    padding-bottom: 100px;
+}
+h4{
+    text-align: center;
+}
+table{
+    width:100%;
+    background:#fff;
+
+}
+table thead tr th{
+    padding: 10px;
+    color: #000;
+    text-align: left;
+}
+table td{
+    text-align: center;
+}
+table.table-striped tbody tr:nth-of-type(odd){
+    background:#f9f9f9;
+}
+table.result-point tr td.number{
+    width:100px;
+    position: relative;
+    text-align: left;
+}
+.text-center{
+    text-align: left !important;
+}
+table.result-point tr td .fa.fa-caret-up{
+    color:green;
+}
+table.result-point tr td .fa{
+    font-size: 20px;
+    position: absolute;
+    right:20px;
+}
+table tr td img{
+    max-width:35px;
+    margin-right:11px;
+    margin-top: 1px;
+    float: left;
+    border: 1px solid #dedede;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    bottom: 0;
+    color: white;
+}
+
+
+@media screen and (max-width:600px) {
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+        font-size: 18px;
+    }
+    table thead tr th{
+        padding: 5px;
+        color: #000;
+        text-align: left;
+        font-size: 15px;
+    }
+    table tr td img{
+        max-width:30px;
+        margin-right:11px;
+        margin-top: 1px;
+        float: left;
+       
+    }
+    table.result-point tr td.number{
+        width:100px;
+        text-align: left;
+    }
+    .text-center{
+        text-align: left !important;
+        font-size: 11px;
+    }
+    p{
+        color: red;
+        text-decoration: underline;
+        text-align: right;
+        font-size: 12px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        font-size: 10px;
+    }
+    table td{
+        text-align: center;
+        font-size: 11px;
+    
+}
+}
