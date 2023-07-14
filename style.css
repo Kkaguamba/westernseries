@@ -87,8 +87,9 @@ table tr td img{
     max-width:35px;
     margin-right:11px;
     margin-top: 1px;
+    background-position: -250px -225px;
     float: left;
-    border: 1px solid #dedede;
+    display: block;
 }
 footer{
     text-align: center;
@@ -126,6 +127,8 @@ footer{
         margin-right:11px;
         margin-top: 1px;
         float: left;
+        width: 25px;
+        height: 25px;
        
     }
     table.result-point tr td.number{
